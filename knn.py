@@ -1,6 +1,5 @@
 from math import sqrt
 
-
 def distance(point1, point2):
     return sqrt((point1[0] - float(point2[0])) ** 2 + (point1[1] - float(point2[1])) ** 2 + (point1[2] - float(point2[2])) ** 2 +(point1[3] - float(point2[3])) ** 2)
 
